@@ -1,0 +1,30 @@
+/* Media 400 px  */
+@media screen and (max-width: 25em) {
+  html {
+    font-size: 43.75%;
+  }
+  .card__container {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .card__picture {
+    flex-basis: 40rem;
+    flex-shrink: 0;
+  }
+
+  .card__spec {
+    flex: 1;
+    margin-left: 0;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .card__paragraph {
+    flex: 1;
+    overflow-y: auto;
+  }
+}
